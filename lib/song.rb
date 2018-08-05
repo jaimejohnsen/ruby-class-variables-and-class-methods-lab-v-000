@@ -18,9 +18,11 @@ class Song
   end
 #.artists returns an array without duplicates...so do a check if it has it, in not push into the array
   def self.artists
-    @@artists
+   @@artists.uniq 
   end
 
+
+  
   def self.genres
     @@genres
   end
