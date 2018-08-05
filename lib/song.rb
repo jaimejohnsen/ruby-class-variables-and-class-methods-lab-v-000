@@ -42,6 +42,7 @@ class Song
 
      def self.artist_count
        artist_count = {}
+       @@artist.each do |artist|
        if artist_count[artist] #if the key :artist has a value is true we increment the counter
          artist_count[artist] += 1
        else #so access the hash, then key, and no value was found, the new value would be one
