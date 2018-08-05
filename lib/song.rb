@@ -28,7 +28,9 @@ class Song
 
   #.genre_count, that returns a hash in which the keys are the names of each genre.
    #Each genre name key should point to a value that is the number of songs that have that genre.
-   def genre_count
+   def self.genre_count
+     genre_count = {}
+     
 
    end
 end
