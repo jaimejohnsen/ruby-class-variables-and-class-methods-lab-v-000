@@ -50,4 +50,7 @@ class Song
        end
        end
        artist_count #call the new hash outside of the do and if loops to return it.
-end
+     end
+   end
+       
+
