@@ -30,7 +30,7 @@ class Song
    #Each genre name key should point to a value that is the number of songs that have that genre.
    def self.genre_count
      genre_count = {}
-     
+     @@genres.each do |genre|
 
    end
 end
