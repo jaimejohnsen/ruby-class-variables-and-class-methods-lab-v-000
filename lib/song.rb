@@ -33,6 +33,10 @@ class Song
      @@genres.each do |genre|
        if genre_count[genre] #accessing the value of the key provided in hash. Access the hash name, then the key, to get value
          genre_count[genre] += 1
+       else
+         genre_count[genre] = 1
+       end
+        
 
    end
 end
