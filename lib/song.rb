@@ -13,21 +13,22 @@ class Song
     @@genres << genre
   end
 
-  def self.count
+    def self.count
     @@count
-  end
+    end
 #.artists returns an array without duplicates...so do a check if it has it,
 # in not push into the array
-  def self.artists
-   @@artists.uniq
-  end
+    def self.artists
+    @@artists.uniq
+    end
 
-  def self.genres
+    def self.genres
     @@genres.uniq
-  end
+    end
 
   #.genre_count, that returns a hash in which the keys are the names of each genre.
    #Each genre name key should point to a value that is the number of songs that have that genre.
-def genre_count
-end  
+   def genre_count
+
+   end
 end
