@@ -31,6 +31,8 @@ class Song
    def self.genre_count
      genre_count = {}
      @@genres.each do |genre|
+       if genre_count[genre] #accessing the value of the key provided in hash. Access the hash name, then the key, to get value
+         genre_count[genre] += 1
 
    end
 end
